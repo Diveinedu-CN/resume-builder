@@ -1,0 +1,76 @@
+basic:
+  name: 戴维营
+  designation: iOS软件工程师
+  age: 25
+  gender: 男
+  email: Cowbye@foxmail.com
+  phone: +86 73189606715
+  website: http://v.diveinedu.com
+online_handles:
+  weibo: Cowbye
+  github: Cowbye
+  weixin: Cowbye
+self_evaluation:
+  contents:
+    - 一个聪明，敏锐，开放，富有激情的移动互联网开发者。
+    - 一个勇敢，无畏，正义，所向披靡的戴维营退役的战士。
+skills:
+  - title: Programming
+    contents:
+      - C/Objective-C/C++
+      - HTML/HTML5/CSS
+      - Javascript
+      - Swift
+      - Design Pattern
+  - title: 'Frameworks & Technologies'
+    contents:
+      - Cocoa Touch
+      - Core Data
+      - Storyboard/AutoLayout
+      - ReactiveCocoa
+      - PhoneGap
+work_experience:
+  - company: 湖南步步高电子商务有限责任公司
+    time_span: 2014/01 - 2015/06
+    designation: iOS研发工程师
+    website: http://www.bbg.com.cn
+    summary: 维护老项目，开发新项目；对产品进行迭代开发。
+    responsibilities:
+      - 了解原有项目架构和业务逻辑
+      - 代码维护以及开发新需求和新项目
+      - 和团队进行测试驱动开发和结对编程 😊
+projects:
+  - name: 云猴全球购
+    role: Developer
+    time_span: 2015/04 - 2015/06
+    website: http://www.yunhou.com
+    summary: 云猴全球购是一款购买海外商品的电商App，拥有各大品牌的化妆品和家电等。
+    bullet_points:
+      - 使用SDK实现第三方的分享
+      - 集成支付宝SDK实现移动安全支付
+      - 采用系统API实现二维码扫描功能
+      - 使用SDWebImage做异步加载和缓存图片
+
+  - name: 营内聊
+    role: Developer 
+    time_span: 2014/08 - 2014/10
+    website: https://github.com/Diveinedu-CN/PeiniYunSDK
+    summary: 营内聊是一款基于XMPP协议的IM社交软件，用于员工之间的信息交流和工作沟通。
+    bullet_points:
+      - 用Storyboard/AutoLayout快速搭建所有的UI界面
+      - 使用XMPPFramework和后台Openfire通信实现IM功能
+      - 添加XMPPFramework的XEP0096扩展实现ByteStreams文件传输
+      - 使用KeyChain开源框架对账户等敏感信息进行加密存储
+      - 使用DVIRefresh框架实现上下拉加载刷新信息
+      - 采用WebRTC实现实时的音视频通话功能
+      - 采用WebSocket做信令协议来建立通话
+
+education:
+  - institution: 湖南大学，长沙
+    course: 计算机科学与技术－本科
+    time_span: 2010/09 - 2014/06
+
+interests:
+  - 移动开发
+  - '阅读 & 写作'
+  - 电影
