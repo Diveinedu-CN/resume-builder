@@ -43,7 +43,7 @@ projects:
   - name: 云猴全球购
     role: Developer
     time_span: 2015/04 - 2015/06
-    website: http://www.yunhou.com
+    website:
     summary: 云猴全球购是一款购买海外商品的电商App，拥有各大品牌的化妆品和家电等。
     bullet_points:
       - 使用SDK实现第三方的分享
@@ -54,7 +54,7 @@ projects:
   - name: 营内聊
     role: Developer 
     time_span: 2014/08 - 2014/10
-    website: https://github.com/Diveinedu-CN/PeiniYunSDK
+    website: 
     summary: 营内聊是一款基于XMPP协议的IM社交软件，用于员工之间的信息交流和工作沟通。
     bullet_points:
       - 用Storyboard/AutoLayout快速搭建所有的UI界面

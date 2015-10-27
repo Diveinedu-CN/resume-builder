@@ -39,13 +39,13 @@
 								<dd><%= @config["basic"]["phone"] %></dd>
 								<dt>邮箱:</dt>
 								<dd>
-									<a href="mailto:<%= @config["basic"]["email"] %>">
+									<a>
 										<%= @config["basic"]["email"] %>
 									</a>
 								</dd>
 								<dt>网站:</dt>
 								<dd>
-									<a href="<%= @config["basic"]["website"] %>">
+									<a>
 										<%= @config["basic"]["website"] %>
 									</a>
 								</dd>
@@ -54,17 +54,17 @@
 						<div class="col-md-6 col-sm-12">
 							<ul class="networks list-unstyled text-right">
 								<li>
-									<a href="http://www.weibo.com/<%= @config["online_handles"]["weibo"] %>">
+									<a>
 										weibo.com/<%= @config["online_handles"]["weibo"] %>
 								</a>
 							</li>
 							<li>
-								<a href="https://github.com/<%= @config["online_handles"]["github"] %>">
+								<a>
 									github.com/<%= @config["online_handles"]["github"] %>
 							</a>
 						</li>
 						<li>
-							<a href="javascript:void();">
+							<a>
 								wechat/<%= @config["online_handles"]["weixin"] %>
 						</a>
 					</li>
@@ -118,7 +118,7 @@
 					<strong><%= item["designation"] %></strong>
 					<p class="sticky"><%= item["time_span"] %></p>
 					<p class="sticky">
-						<a href="<%= item["website"] %>"><%= item["website"] %></a>
+						<a><%= item["website"] %></a>
 					</p>
 					<p><%= item["summary"] %></p>
 					<ul>
@@ -140,7 +140,7 @@
 				<div class="item">
 					<h3><%= item["name"] %></h3>
 					<p class="sticky">
-						<a href="<%= item["website"] %>"><%= item["website"] %></a>
+						<a><%= item["website"] %></a>
 					</p>
 					<strong><%= item["role"] %></strong><br />
 					<p class="sticky"><%= item["time_span"] %></p>
